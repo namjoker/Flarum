@@ -39,7 +39,15 @@
         "flarum/flarum-ext-sticky": "^0.1.0",
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
-        "flarum/flarum-ext-tags": "^0.1.0"
+        "flarum/flarum-ext-tags": "^0.1.0",
+        "sijad/flarum-ext-spoiler-alert": "^0.1.0",
+        "flagrow/flarum-ext-image-upload": "^0.2.3",
+        "sijad/flarum-ext-pages": "^0.1.0@beta",
+        "s9e/flarum-ext-mediaembed": "^0.3.2",
+        "vingle/flarum-share-social": "^0.1.0",
+        "flagrow/flarum-ext-guardian": "^0.1.2",
+        "vuthaihoc/flarum-vn-slug": "^0.1.0",
+        "hyn/flarum-default-group": "^0.5.0"
     },
     "require-dev": {
         "franzl/studio": "^0.10.0"

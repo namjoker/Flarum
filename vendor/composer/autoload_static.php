@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
+class ComposerStaticInite37aa67af71e08aed34ba423064f647d
 {
     public static $files = array (
         '65fec9ebcfbb3cbb4fd0d519687aea01' => __DIR__ . '/..' . '/danielstjules/stringy/src/Create.php',
@@ -29,6 +29,10 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
         ),
+        'V' => 
+        array (
+            'Vingle\\Share\\Social\\' => 20,
+        ),
         'T' => 
         array (
             'Tobscure\\JsonApi\\' => 17,
@@ -46,6 +50,8 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
             'Symfony\\Component\\Console\\' => 26,
             'Studio\\' => 7,
             'Stringy\\' => 8,
+            'Sijad\\Spoiler\\Alert\\' => 20,
+            'Sijad\\Pages\\' => 12,
         ),
         'P' => 
         array (
@@ -81,6 +87,11 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
             'Illuminate\\Cache\\' => 17,
             'Illuminate\\Bus\\' => 15,
         ),
+        'H' => 
+        array (
+            'Hyn\\Guardian\\' => 13,
+            'Hyn\\DefaultGroup\\' => 17,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -108,6 +119,7 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
             'Flarum\\Approval\\' => 16,
             'Flarum\\Akismet\\' => 15,
             'Flarum\\' => 7,
+            'Flagrow\\ImageUpload\\' => 20,
             'FastRoute\\' => 10,
         ),
         'D' => 
@@ -138,6 +150,10 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
         'Zend\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
+        'Vingle\\Share\\Social\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vingle/flarum-share-social/src',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
@@ -186,6 +202,14 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
         'Stringy\\' => 
         array (
             0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
+        ),
+        'Sijad\\Spoiler\\Alert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-spoiler-alert/src',
+        ),
+        'Sijad\\Pages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-pages/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (
@@ -277,6 +301,14 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
         array (
             0 => __DIR__ . '/..' . '/illuminate/bus',
         ),
+        'Hyn\\Guardian\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/flarum-ext-guardian/src',
+        ),
+        'Hyn\\DefaultGroup\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyn/flarum-default-group/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -364,6 +396,10 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
         'Flarum\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
+        ),
+        'Flagrow\\ImageUpload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/flarum-ext-image-upload/src',
         ),
         'FastRoute\\' => 
         array (
@@ -475,10 +511,10 @@ class ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit44b095e2cb36a5c39de4838deca7d2d5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite37aa67af71e08aed34ba423064f647d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite37aa67af71e08aed34ba423064f647d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite37aa67af71e08aed34ba423064f647d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInite37aa67af71e08aed34ba423064f647d::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,0 +1,32 @@
+{
+    "name": "laptrinhphp/vietnamese",
+    "type": "flarum-extension",
+    "description": "Vietnam language pack for Flarum.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "homepage": "https://github.com/laptrinhphp/flarum",
+    "authors": [
+        {
+            "name": "dungphanxuan",
+            "email": "dungphanxuan@vccorp.vn",
+            "homepage": "http://www.laptrinhphp.edu.vn"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tiếng việt",
+            "icon": {
+                "name": "star",
+                "backgroundColor": "#FF0000",
+                "color": "#FFFF00"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng việt"
+        }
+    }
+}

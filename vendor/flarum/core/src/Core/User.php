@@ -157,7 +157,7 @@ class User extends AbstractModel
         $user->email = $email;
         $user->password = $password;
         $user->join_time = time();
-
+        // $user->is_activate = 1;
         $user->raise(new UserWasRegistered($user));
 
         return $user;

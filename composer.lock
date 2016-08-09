@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc68977a9b8094c6bfb1e193d948a7ec",
-    "content-hash": "e6a06883268aa19e14a3e6630c8906e6",
+    "hash": "cb92488c0e10e36695bf6b8b2093f249",
+    "content-hash": "3feca446cc91ab08ecd2dadb38b0db47",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -641,6 +641,121 @@
                 "zf2"
             ],
             "time": "2015-06-29 05:42:04"
+        },
+        {
+            "name": "flagrow/flarum-ext-guardian",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/flarum-ext-guardian.git",
+                "reference": "fe88324b783d14fb8fcddd75507c6c8206fe5569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/flarum-ext-guardian/zipball/fe88324b783d14fb8fcddd75507c6c8206fe5569",
+                "reference": "fe88324b783d14fb8fcddd75507c6c8206fe5569",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Guardian",
+                    "icon": {
+                        "name": "user-secret",
+                        "backgroundColor": "#74000E",
+                        "color": "#BE1E31"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyn\\Guardian\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.io"
+                }
+            ],
+            "description": "Adds additional security to Flarum",
+            "keywords": [
+                "security"
+            ],
+            "time": "2015-12-16 09:18:34"
+        },
+        {
+            "name": "flagrow/flarum-ext-image-upload",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/flarum-ext-image-upload.git",
+                "reference": "e52469d7b6c1525e8ce769f500875e339a5c1d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/flarum-ext-image-upload/zipball/e52469d7b6c1525e8ce769f500875e339a5c1d96",
+                "reference": "e52469d7b6c1525e8ce769f500875e339a5c1d96",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5",
+                "flarum/flarum-ext-markdown": "^0.1.0-beta.3"
+            },
+            "suggest": {
+                "cloudinary/cloudinary_php": "Allows uploading images to cloudinary."
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Image Upload",
+                    "icon": {
+                        "name": "upload",
+                        "backgroundColor": "#000",
+                        "color": "#87d37c"
+                    }
+                },
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\ImageUpload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.io"
+                },
+                {
+                    "name": "Matteo Pompili",
+                    "email": "matpompili@gmail.com"
+                }
+            ],
+            "description": "Image uploader for Flarum forum messages.",
+            "keywords": [
+                "flagrow",
+                "flarum",
+                "image",
+                "imgur",
+                "upload"
+            ],
+            "time": "2016-05-18 12:09:21"
         },
         {
             "name": "flarum/core",
@@ -1967,6 +2082,56 @@
                 "uri"
             ],
             "time": "2016-06-24 23:00:38"
+        },
+        {
+            "name": "hyn/flarum-default-group",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyn/flarum-default-group.git",
+                "reference": "7dc4d8c8281c0b0e0f693f27fc18df8bf8ea1edd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyn/flarum-default-group/zipball/7dc4d8c8281c0b0e0f693f27fc18df8bf8ea1edd",
+                "reference": "7dc4d8c8281c0b0e0f693f27fc18df8bf8ea1edd",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Default group",
+                    "icon": {
+                        "name": "users",
+                        "backgroundColor": "#539EC1",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyn\\DefaultGroup\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.io"
+                }
+            ],
+            "description": "Assign a default group to new users automatically.",
+            "keywords": [
+                "grouping"
+            ],
+            "time": "2015-12-01 21:20:22"
         },
         {
             "name": "illuminate/bus",
@@ -3579,6 +3744,51 @@
             "time": "2016-07-04 13:08:05"
         },
         {
+            "name": "s9e/flarum-ext-mediaembed",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/s9e/flarum-ext-mediaembed.git",
+                "reference": "7041c45cfe368eb083250bae7cd3d5d9587ea711"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/s9e/flarum-ext-mediaembed/zipball/7041c45cfe368eb083250bae7cd3d5d9587ea711",
+                "reference": "7041c45cfe368eb083250bae7cd3d5d9587ea711",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3",
+                "php": ">=5.4.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "MediaEmbed",
+                    "icon": {
+                        "name": "youtube-play",
+                        "backgroundColor": "#cc181e",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Embed third-party content in your Flarum.",
+            "keywords": [
+                "embed",
+                "facebook",
+                "flarum",
+                "media",
+                "twitch",
+                "twitter",
+                "youtube"
+            ],
+            "time": "2015-12-04 17:40:51"
+        },
+        {
             "name": "s9e/text-formatter",
             "version": "0.4.12",
             "source": {
@@ -3637,6 +3847,116 @@
                 "shortcodes"
             ],
             "time": "2016-03-20 10:22:44"
+        },
+        {
+            "name": "sijad/flarum-ext-pages",
+            "version": "0.1.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-pages.git",
+                "reference": "3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-pages/zipball/3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380",
+                "reference": "3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Pages",
+                    "icon": {
+                        "name": "file-text-o",
+                        "backgroundColor": "#4C49A2",
+                        "color": "#B8DC3C"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Create custom page with Flarum",
+            "keywords": [
+                "page",
+                "static"
+            ],
+            "time": "2016-04-18 18:30:17"
+        },
+        {
+            "name": "sijad/flarum-ext-spoiler-alert",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-spoiler-alert.git",
+                "reference": "cfa85a70a8713c456b180bdf8b693e539e61f189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-spoiler-alert/zipball/cfa85a70a8713c456b180bdf8b693e539e61f189",
+                "reference": "cfa85a70a8713c456b180bdf8b693e539e61f189",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "conflict": {
+                "sijad/flarum-spoiler": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Spoiler Alert",
+                    "icon": {
+                        "name": "exclamation",
+                        "backgroundColor": "#fff",
+                        "color": "#c52033"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Spoiler\\Alert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Spoiler plugin for Flarum using spoiler-alert jQuery plugin",
+            "keywords": [
+                "alert",
+                "bbcode",
+                "content",
+                "formatting",
+                "hidden",
+                "hide",
+                "invisible",
+                "spoiler",
+                "text"
+            ],
+            "time": "2016-06-15 13:18:49"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4177,6 +4497,98 @@
             "time": "2015-11-02 12:50:22"
         },
         {
+            "name": "vingle/flarum-share-social",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tutula1/vingle-share-social.git",
+                "reference": "0ce19c16e926c1d42e091218e627ec56be073506"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tutula1/vingle-share-social/zipball/0ce19c16e926c1d42e091218e627ec56be073506",
+                "reference": "0ce19c16e926c1d42e091218e627ec56be073506",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "_ Share Social",
+                    "icon": {
+                        "name": "share-alt",
+                        "backgroundColor": "#000",
+                        "color": "#FF0"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vingle\\Share\\Social\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Binh Duong",
+                    "email": "binh.duong@vingle.net"
+                }
+            ],
+            "description": "Include share social button.",
+            "keywords": [
+                "facebook",
+                "google",
+                "google plus",
+                "share",
+                "social",
+                "twitter"
+            ],
+            "time": "2015-12-13 10:36:14"
+        },
+        {
+            "name": "vuthaihoc/flarum-vn-slug",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vuthaihoc/flarum-vn-slug.git",
+                "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vuthaihoc/flarum-vn-slug/zipball/7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+                "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Vietnamese Slug",
+                    "icon": {
+                        "name": "slug",
+                        "backgroundColor": "#000",
+                        "color": "#87d37c"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vũ Thái Học",
+                    "email": "vuthaihoc.ttud@gmail.com"
+                }
+            ],
+            "description": "Support to build slug from Vietnamese title",
+            "time": "2016-01-14 16:49:28"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "1.3.5",
             "source": {
@@ -4481,7 +4893,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "sijad/flarum-ext-pages": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
