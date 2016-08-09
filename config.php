@@ -5,7 +5,7 @@
     'driver' => 'mysql',
     'host' => 'localhost',
     'database' => 'hoidap',
-    'username' => 'ryuzaki95',
+    'username' => 'root',
     'password' => '1995',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
