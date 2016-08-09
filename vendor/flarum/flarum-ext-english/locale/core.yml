@@ -230,6 +230,7 @@ core:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_all_as_read_confirmation: "Bạn có muốn đánh dấu đã đọc tất cả các bài viết?"
       refresh_tooltip: Làm mới
       start_discussion_button: => core.ref.start_a_discussion
 

@@ -29,3 +29,5 @@ flarum-mentions:
     settings:
       notify_post_mentioned_label: Bài viết của bạn có phản hồi mới
       notify_user_mentioned_label: Bạn được nhắc tới trong bài viết
+    user:
+      mentions_link: Mentions  
