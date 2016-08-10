@@ -1,3 +1,10 @@
+<script type="text/javascript">
+	
+	function loadNowPlaying(){
+  $(".item-notifications").load("/");
+}
+setInterval(function(){loadNowPlaying()}, 5000);
+</script>
 <div id="app" class="App">
 
   <div id="app-navigation" class="App-navigation"></div>
