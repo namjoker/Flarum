@@ -4966,49 +4966,6 @@
         ]
     },
     {
-        "name": "vuthaihoc/flarum-vn-slug",
-        "version": "v0.1.0",
-        "version_normalized": "0.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/vuthaihoc/flarum-vn-slug.git",
-            "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/vuthaihoc/flarum-vn-slug/zipball/7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
-            "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta.3"
-        },
-        "time": "2016-01-14 16:49:28",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "Vietnamese Slug",
-                "icon": {
-                    "name": "slug",
-                    "backgroundColor": "#000",
-                    "color": "#87d37c"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Vũ Thái Học",
-                "email": "vuthaihoc.ttud@gmail.com"
-            }
-        ],
-        "description": "Support to build slug from Vietnamese title"
-    },
-    {
         "name": "hyn/flarum-default-group",
         "version": "0.5.0",
         "version_normalized": "0.5.0.0",
@@ -5059,5 +5016,103 @@
         "keywords": [
             "grouping"
         ]
+    },
+    {
+        "name": "santiagobiali/flarum-ext-logo",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/santiagobiali/flarum-ext-logo.git",
+            "reference": "0ebdb1ede732e7eb382aab33ba8296042a9b6ec3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/santiagobiali/flarum-ext-logo/zipball/0ebdb1ede732e7eb382aab33ba8296042a9b6ec3",
+            "reference": "0ebdb1ede732e7eb382aab33ba8296042a9b6ec3",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.5"
+        },
+        "time": "2016-04-02 00:05:17",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Logo",
+                "icon": {
+                    "name": "image",
+                    "backgroundColor": "#3b5998",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Santiagobiali\\Logo\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Santiago Testa Biali",
+                "email": "santiago.t.biali@gmail.com"
+            }
+        ],
+        "description": "Adds a logo to you forum",
+        "keywords": [
+            "design",
+            "ext",
+            "flarum",
+            "logo",
+            "santiagobiali"
+        ]
+    },
+    {
+        "name": "vuthaihoc/flarum-vn-slug",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vuthaihoc/flarum-vn-slug.git",
+            "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vuthaihoc/flarum-vn-slug/zipball/7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+            "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.3"
+        },
+        "time": "2016-01-14 16:49:28",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Vietnamese Slug",
+                "icon": {
+                    "name": "slug",
+                    "backgroundColor": "#000",
+                    "color": "#87d37c"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Vũ Thái Học",
+                "email": "vuthaihoc.ttud@gmail.com"
+            }
+        ],
+        "description": "Support to build slug from Vietnamese title"
     }
 ]
