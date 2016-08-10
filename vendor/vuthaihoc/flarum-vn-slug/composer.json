@@ -1,7 +1,6 @@
 {
     "name": "vuthaihoc/flarum-vn-slug",
     "description": "Support to build slug from Vietnamese title",
-    "version": "v0.1.0",
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
@@ -11,7 +10,13 @@
       }
     ],
     "require": {
-        "flarum/core": "^0.1.0-beta.3"
+        "flarum/core": "^0.1.0-beta.5",
+        "cocur/slugify": "^2.1.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "VuThaiHoc\\FlarumVnSlug\\": "src"
+      }
     },
     "extra": {
         "flarum-extension": {
