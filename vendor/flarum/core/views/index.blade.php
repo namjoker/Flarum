@@ -1,6 +1,13 @@
 <?php
 $url = app('Flarum\Forum\UrlGenerator');
 ?>
+<script type="text/javascript">
+    
+    function loadNowPlaying(){
+    $(".item-notifications").load("/");
+    }
+setInterval(function(){loadNowPlaying()}, 5000);
+</script>
 <div class="container">
     <h2>{{ $translator->trans('core.ref.all_discussions') }}</h2>
 
