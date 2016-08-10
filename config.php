@@ -12,7 +12,7 @@
     'prefix' => '',
     'strict' => false,
   ),
-  'url' => 'https://thanglongit.me',
+  'url' => 'http://thanglongit.me',
   'paths' => 
   array (
     'api' => 'api',
