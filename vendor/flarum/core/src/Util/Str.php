@@ -44,7 +44,9 @@ class Str
         $str = preg_replace('/(ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ)/', 'u', $str);
         $str = preg_replace('/(ỳ|ý|ỵ|ỷ|ỹ)/', 'y', $str);
         $str = preg_replace('/(đ)/', 'd', $str);
-        // $str = preg_replace('/[^a-z0-9-\s]/', '', $str);
+        $str = preg_replace('/[^a-z0-9]/i', '-', $str);
+-        $str = preg_replace('/-+/', '-', $str);
+-        $str = preg_replace('/-$|^-/', '', $str);
         $str = preg_replace('/([\s]+)/', '-', $str);
 
         return $str ?: '-';
